@@ -55,9 +55,10 @@ void showTaskList(){
         return;
     }
     for (auto curr_t : taskList){
-        cout<<curr_t.task_num<< ". "<<curr_t.task_title;
-        if (curr_t.done) cout<<"[Completed]";
-        cout<<endl;
+        cout<<"("<<curr_t.task_num<<")";
+        if (curr_t.done) cout<<"[✓]";
+        else cout<<"[ ]";
+        cout<<curr_t.task_title<<endl;
     }
 }
 
