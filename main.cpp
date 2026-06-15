@@ -1,5 +1,7 @@
 #include<iostream>
-#include<Vector>
+#include<vector>
+#include<fstream>
+#include<sstream>
 #include<algorithm>
 using namespace std;
 
@@ -12,6 +14,36 @@ struct Task{
 vector<Task> taskList;
 int next_task = 1;
 
+void saveTasks(){
+    ofstream file("tasklist.txt");
+    for (auto t : taskList){
+        file << t.task_num << "," << t.done <<","<<t.task_title<<endl;
+    }
+    file.close();
+}
+void loadTasks(){
+    ifstream inFile("tasklist.txt");
+    if (!inFile) return;
+    string task_line;
+    while (getline(inFile, task_line)){
+        stringstream ss(task_line);
+        string id, done, title;
+        getline(ss, id, ',');
+        getline(ss, done, ',');
+        getline(ss, title, ',');
+        Task t_new;
+        t_new.task_num = stoi(id);
+        t_new.done = (done == "1");
+        t_new.task_title = title;
+        taskList.push_back(t_new);
+        if (t_new.task_num >= next_task){
+            next_task = t_new.task_num + 1;
+        }
+    }
+    inFile.close();
+}
+
+
 void addTask(){
     Task t;
     t.task_num = next_task++;
@@ -21,6 +53,7 @@ void addTask(){
     getline(cin, t.task_title);
     taskList.push_back(t);
     cout<<"Task added."<<endl;
+    saveTasks();
 }
 void deleteTask(){
     int id;
@@ -31,10 +64,12 @@ it++){
         if (it->task_num == id){
             taskList.erase(it);
             cout<<"Task deleted successfully.\n";
+            saveTasks();
             return;
         }
     }
     cout<<"Task does not exist.\n";
+    saveTasks();
 }
 void markCompleted(){
     int id;
@@ -44,11 +79,14 @@ void markCompleted(){
         if (curr_task.task_num == id){
             curr_task.done = true;
             cout<<"Task marked as done.\n";
+            saveTasks();
             return;
         }
     }
     cout<<"Task does not exist\n";
+    saveTasks();
 }
+
 void showTaskList(){
     if (taskList.empty()){
         cout<<"No more Tasks to do."<<endl;
@@ -63,6 +101,7 @@ void showTaskList(){
 }
 
 int main(){
+    loadTasks();
     int user_choice;
     while(true){
         cout<<"-----TO-DO LIST-------\n";
