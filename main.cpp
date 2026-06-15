@@ -1,5 +1,6 @@
 #include<iostream>
 #include<Vector>
+#include<algorithm>
 using namespace std;
 
 struct Task{
@@ -20,6 +21,20 @@ void addTask(){
     getline(cin, t.task_title);
     taskList.push_back(t);
     cout<<"Task added."<<endl;
+}
+void deleteTask(){
+    int id;
+    cout<<"Enter task to be deleted: ";
+    cin>>id;
+    for (auto it = taskList.begin(); it != taskList.end();
+it++){
+        if (it->task_num == id){
+            taskList.erase(it);
+            cout<<"Task deleted successfully.\n";
+            return;
+        }
+    }
+    cout<<"Task does not exist.\n";
 }
 void markCompleted(){
     int id;
@@ -53,7 +68,8 @@ int main(){
         cout<<"1. Add task\n";
         cout<<"2. Show all tasks\n";
         cout<<"3. Mark task as done\n";
-        cout<<"4. Exit\n";
+        cout<<"4. Delete task\n";
+        cout<<"5. Exit\n";
         cout<<"Enter choice (number only): ";
         cin>>user_choice;
         switch(user_choice){
@@ -67,6 +83,9 @@ int main(){
                 markCompleted();
                 break;
             case 4:
+                deleteTask();
+                break;
+            case 5:
                 return 0;
             default:
                 cout<<"Invalid choice\n";
