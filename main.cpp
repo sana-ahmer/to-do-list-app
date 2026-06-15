@@ -21,6 +21,19 @@ void addTask(){
     taskList.push_back(t);
     cout<<"Task added."<<endl;
 }
+void markCompleted(){
+    int id;
+    cout<<"Enter task number to mark as completed: ";
+    cin>>id;
+    for (auto &curr_task : taskList){
+        if (curr_task.task_num == id){
+            curr_task.done = true;
+            cout<<"Task marked as done.\n";
+            return;
+        }
+    }
+    cout<<"Task does not exist\n";
+}
 void showTaskList(){
     if (taskList.empty()){
         cout<<"No more Tasks to do."<<endl;
@@ -39,7 +52,8 @@ int main(){
         cout<<"-----TO-DO LIST-------\n";
         cout<<"1. Add task\n";
         cout<<"2. Show all tasks\n";
-        cout<<"3. Exit\n";
+        cout<<"3. Mark task as done\n";
+        cout<<"4. Exit\n";
         cout<<"Enter choice (number only): ";
         cin>>user_choice;
         switch(user_choice){
@@ -50,6 +64,9 @@ int main(){
                 showTaskList();
                 break;
             case 3:
+                markCompleted();
+                break;
+            case 4:
                 return 0;
             default:
                 cout<<"Invalid choice\n";
