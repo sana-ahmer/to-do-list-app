@@ -43,6 +43,23 @@ void loadTasks(){
     inFile.close();
 }
 
+void searchForTask(){
+    string search_t;
+    cout<<"Enter task to search for: ";
+    cin.ignore();
+    getline(cin, search_t);
+    bool found = false;
+    for (auto t:taskList){
+        if (t.task_title.find(search_t) !=string::npos){
+            cout<<"("<<t.task_num<<")";
+            if (t.done) cout << "[✓]";
+            else cout<<"[ ]";
+            cout<<t.task_title<<endl;
+            found = true;
+        }
+    }
+    if (!found) cout<<"No such task found!"<<endl;
+}
 
 void addTask(){
     Task t;
@@ -109,7 +126,8 @@ int main(){
         cout<<"2. Show all tasks\n";
         cout<<"3. Mark task as done\n";
         cout<<"4. Delete task\n";
-        cout<<"5. Exit\n";
+        cout<<"5. Search Task\n";
+        cout<<"6. Exit\n";
         cout<<"Enter choice (number only): ";
         cin>>user_choice;
         switch(user_choice){
@@ -126,6 +144,9 @@ int main(){
                 deleteTask();
                 break;
             case 5:
+                searchForTask();
+                break;
+            case 6:
                 return 0;
             default:
                 cout<<"Invalid choice\n";
