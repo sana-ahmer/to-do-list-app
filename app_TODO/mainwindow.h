@@ -29,6 +29,8 @@ private slots:
 
     void on_clearButton_clicked();
 
+    void on_hidecompletedcheck_toggled(bool checked);
+
 private:
     Ui::MainWindow *ui;
     taskManager manager;

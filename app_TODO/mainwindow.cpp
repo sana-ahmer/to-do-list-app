@@ -17,7 +17,9 @@ MainWindow::~MainWindow()
 
 void MainWindow::refreshList(){
     ui->tasklistWidget->clear();
+    bool nonComplete = ui->hidecompletedcheck->isChecked();
     for (auto task : manager.taskList){
+        if (nonComplete && task.done) continue;
         QString text;
         if (task.done)
             text += "[✓] ";
@@ -58,7 +60,6 @@ void MainWindow::on_deleteButton_clicked()
 
 }
 
-
 void MainWindow::on_searchButton_clicked()
 {
     QString qsearch = ui->searchInput->text();
@@ -82,12 +83,15 @@ void MainWindow::on_searchButton_clicked()
 
 void MainWindow::on_clearButton_clicked()
 {
-    for (auto it=manager.taskList.begin(); it != manager.taskList.end();){
-        if (it->done) it = manager.taskList.erase(it);
-        else ++it;
-    }
+    manager.taskList.clear();
+    manager.next_task = 1;
     manager.saveTasks();
-    if (manager.taskList.empty()) manager.next_task = 1;
+    refreshList();
+}
+
+
+void MainWindow::on_hidecompletedcheck_toggled(bool checked)
+{
     refreshList();
 }
 
