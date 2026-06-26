@@ -58,3 +58,35 @@ void MainWindow::on_deleteButton_clicked()
 
 }
 
+
+void MainWindow::on_searchButton_clicked()
+{
+    QString qsearch = ui->searchInput->text();
+    ui->tasklistWidget->clear();
+    if (qsearch.isEmpty()){
+        refreshList();
+        return;
+    }
+    std::string search = qsearch.toStdString();
+    for (auto task:manager.taskList){
+        if (task.task_title.find(search) != std::string::npos){
+            QString text = "("+QString::number(task.task_num) + ")";
+            if (task.done) text += "[✓] ";
+            else text += "[ ] ";
+            text += QString::fromStdString(task.task_title);
+            ui->tasklistWidget->addItem(text);
+            }
+    }
+}
+
+
+void MainWindow::on_clearButton_clicked()
+{
+    for (auto it=manager.taskList.begin(); it != manager.taskList.end();){
+        if (it->done) it = manager.taskList.erase(it);
+        else ++it;
+    }
+    manager.saveTasks();
+    refreshList();
+}
+

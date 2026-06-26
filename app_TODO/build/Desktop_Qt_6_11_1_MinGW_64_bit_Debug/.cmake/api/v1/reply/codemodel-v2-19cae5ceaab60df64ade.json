@@ -7,7 +7,7 @@
 				{
 					"build" : ".",
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-a73b54270d8c2dfd78fb.json",
+					"jsonFile" : "directory-.-Debug-614e92d6e95b5c308140.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -44,7 +44,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TO-DO_ListApp::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TO-DO_ListApp-Debug-a22bd81222fd24c79110.json",
+					"jsonFile" : "target-TO-DO_ListApp-Debug-784608b6ef8ef49e62e7.json",
 					"name" : "TO-DO_ListApp",
 					"projectIndex" : 0
 				},
@@ -68,8 +68,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug",
-		"source" : "C:/Users/TLS/Desktop/TO-DO_ListApp"
+		"build" : "C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug",
+		"source" : "C:/Users/TLS/Desktop/TO-DO LIST/app_TODO"
 	},
 	"version" : 
 	{

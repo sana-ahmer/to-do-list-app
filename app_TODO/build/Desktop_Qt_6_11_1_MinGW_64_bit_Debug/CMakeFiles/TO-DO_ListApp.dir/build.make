@@ -52,10 +52,10 @@ RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\TLS\Desktop\TO-DO_ListApp
+CMAKE_SOURCE_DIR = "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug
+CMAKE_BINARY_DIR = "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/TO-DO_ListApp.dir/depend.make
@@ -71,69 +71,69 @@ include CMakeFiles/TO-DO_ListApp.dir/flags.make
 TO-DO_ListApp_autogen/timestamp: C:/Qt/6.11.1/mingw_64/bin/moc.exe
 TO-DO_ListApp_autogen/timestamp: C:/Qt/6.11.1/mingw_64/bin/uic.exe
 TO-DO_ListApp_autogen/timestamp: CMakeFiles/TO-DO_ListApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target TO-DO_ListApp"
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/TO-DO_ListApp_autogen.dir/AutogenInfo.json Debug
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/TO-DO_ListApp_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target TO-DO_ListApp"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen "C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/TO-DO_ListApp_autogen.dir/AutogenInfo.json" Debug
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch "C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/TO-DO_ListApp_autogen/timestamp"
 
 CMakeFiles/TO-DO_ListApp.dir/TO-DO_ListApp_autogen/mocs_compilation.cpp.obj: CMakeFiles/TO-DO_ListApp.dir/flags.make
 CMakeFiles/TO-DO_ListApp.dir/TO-DO_ListApp_autogen/mocs_compilation.cpp.obj: CMakeFiles/TO-DO_ListApp.dir/includes_CXX.rsp
 CMakeFiles/TO-DO_ListApp.dir/TO-DO_ListApp_autogen/mocs_compilation.cpp.obj: TO-DO_ListApp_autogen/mocs_compilation.cpp
 CMakeFiles/TO-DO_ListApp.dir/TO-DO_ListApp_autogen/mocs_compilation.cpp.obj: CMakeFiles/TO-DO_ListApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TO-DO_ListApp.dir/TO-DO_ListApp_autogen/mocs_compilation.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TO-DO_ListApp.dir/TO-DO_ListApp_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\TO-DO_ListApp.dir\TO-DO_ListApp_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\TO-DO_ListApp.dir\TO-DO_ListApp_autogen\mocs_compilation.cpp.obj -c C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\TO-DO_ListApp_autogen\mocs_compilation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/TO-DO_ListApp.dir/TO-DO_ListApp_autogen/mocs_compilation.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TO-DO_ListApp.dir/TO-DO_ListApp_autogen/mocs_compilation.cpp.obj -MF CMakeFiles\TO-DO_ListApp.dir\TO-DO_ListApp_autogen\mocs_compilation.cpp.obj.d -o CMakeFiles\TO-DO_ListApp.dir\TO-DO_ListApp_autogen\mocs_compilation.cpp.obj -c "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\TO-DO_ListApp_autogen\mocs_compilation.cpp"
 
 CMakeFiles/TO-DO_ListApp.dir/TO-DO_ListApp_autogen/mocs_compilation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TO-DO_ListApp.dir/TO-DO_ListApp_autogen/mocs_compilation.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\TO-DO_ListApp_autogen\mocs_compilation.cpp > CMakeFiles\TO-DO_ListApp.dir\TO-DO_ListApp_autogen\mocs_compilation.cpp.i
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\TO-DO_ListApp_autogen\mocs_compilation.cpp" > CMakeFiles\TO-DO_ListApp.dir\TO-DO_ListApp_autogen\mocs_compilation.cpp.i
 
 CMakeFiles/TO-DO_ListApp.dir/TO-DO_ListApp_autogen/mocs_compilation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TO-DO_ListApp.dir/TO-DO_ListApp_autogen/mocs_compilation.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\TO-DO_ListApp_autogen\mocs_compilation.cpp -o CMakeFiles\TO-DO_ListApp.dir\TO-DO_ListApp_autogen\mocs_compilation.cpp.s
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\TO-DO_ListApp_autogen\mocs_compilation.cpp" -o CMakeFiles\TO-DO_ListApp.dir\TO-DO_ListApp_autogen\mocs_compilation.cpp.s
 
 CMakeFiles/TO-DO_ListApp.dir/main.cpp.obj: CMakeFiles/TO-DO_ListApp.dir/flags.make
 CMakeFiles/TO-DO_ListApp.dir/main.cpp.obj: CMakeFiles/TO-DO_ListApp.dir/includes_CXX.rsp
-CMakeFiles/TO-DO_ListApp.dir/main.cpp.obj: C:/Users/TLS/Desktop/TO-DO_ListApp/main.cpp
+CMakeFiles/TO-DO_ListApp.dir/main.cpp.obj: C:/Users/TLS/Desktop/TO-DO\ LIST/app_TODO/main.cpp
 CMakeFiles/TO-DO_ListApp.dir/main.cpp.obj: CMakeFiles/TO-DO_ListApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TO-DO_ListApp.dir/main.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TO-DO_ListApp.dir/main.cpp.obj -MF CMakeFiles\TO-DO_ListApp.dir\main.cpp.obj.d -o CMakeFiles\TO-DO_ListApp.dir\main.cpp.obj -c C:\Users\TLS\Desktop\TO-DO_ListApp\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/TO-DO_ListApp.dir/main.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TO-DO_ListApp.dir/main.cpp.obj -MF CMakeFiles\TO-DO_ListApp.dir\main.cpp.obj.d -o CMakeFiles\TO-DO_ListApp.dir\main.cpp.obj -c "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\main.cpp"
 
 CMakeFiles/TO-DO_ListApp.dir/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TO-DO_ListApp.dir/main.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TLS\Desktop\TO-DO_ListApp\main.cpp > CMakeFiles\TO-DO_ListApp.dir\main.cpp.i
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\main.cpp" > CMakeFiles\TO-DO_ListApp.dir\main.cpp.i
 
 CMakeFiles/TO-DO_ListApp.dir/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TO-DO_ListApp.dir/main.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TLS\Desktop\TO-DO_ListApp\main.cpp -o CMakeFiles\TO-DO_ListApp.dir\main.cpp.s
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\main.cpp" -o CMakeFiles\TO-DO_ListApp.dir\main.cpp.s
 
 CMakeFiles/TO-DO_ListApp.dir/mainwindow.cpp.obj: CMakeFiles/TO-DO_ListApp.dir/flags.make
 CMakeFiles/TO-DO_ListApp.dir/mainwindow.cpp.obj: CMakeFiles/TO-DO_ListApp.dir/includes_CXX.rsp
-CMakeFiles/TO-DO_ListApp.dir/mainwindow.cpp.obj: C:/Users/TLS/Desktop/TO-DO_ListApp/mainwindow.cpp
+CMakeFiles/TO-DO_ListApp.dir/mainwindow.cpp.obj: C:/Users/TLS/Desktop/TO-DO\ LIST/app_TODO/mainwindow.cpp
 CMakeFiles/TO-DO_ListApp.dir/mainwindow.cpp.obj: CMakeFiles/TO-DO_ListApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TO-DO_ListApp.dir/mainwindow.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TO-DO_ListApp.dir/mainwindow.cpp.obj -MF CMakeFiles\TO-DO_ListApp.dir\mainwindow.cpp.obj.d -o CMakeFiles\TO-DO_ListApp.dir\mainwindow.cpp.obj -c C:\Users\TLS\Desktop\TO-DO_ListApp\mainwindow.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/TO-DO_ListApp.dir/mainwindow.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TO-DO_ListApp.dir/mainwindow.cpp.obj -MF CMakeFiles\TO-DO_ListApp.dir\mainwindow.cpp.obj.d -o CMakeFiles\TO-DO_ListApp.dir\mainwindow.cpp.obj -c "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\mainwindow.cpp"
 
 CMakeFiles/TO-DO_ListApp.dir/mainwindow.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TO-DO_ListApp.dir/mainwindow.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TLS\Desktop\TO-DO_ListApp\mainwindow.cpp > CMakeFiles\TO-DO_ListApp.dir\mainwindow.cpp.i
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\mainwindow.cpp" > CMakeFiles\TO-DO_ListApp.dir\mainwindow.cpp.i
 
 CMakeFiles/TO-DO_ListApp.dir/mainwindow.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TO-DO_ListApp.dir/mainwindow.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TLS\Desktop\TO-DO_ListApp\mainwindow.cpp -o CMakeFiles\TO-DO_ListApp.dir\mainwindow.cpp.s
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\mainwindow.cpp" -o CMakeFiles\TO-DO_ListApp.dir\mainwindow.cpp.s
 
 CMakeFiles/TO-DO_ListApp.dir/taskmanager.cpp.obj: CMakeFiles/TO-DO_ListApp.dir/flags.make
 CMakeFiles/TO-DO_ListApp.dir/taskmanager.cpp.obj: CMakeFiles/TO-DO_ListApp.dir/includes_CXX.rsp
-CMakeFiles/TO-DO_ListApp.dir/taskmanager.cpp.obj: C:/Users/TLS/Desktop/TO-DO_ListApp/taskmanager.cpp
+CMakeFiles/TO-DO_ListApp.dir/taskmanager.cpp.obj: C:/Users/TLS/Desktop/TO-DO\ LIST/app_TODO/taskmanager.cpp
 CMakeFiles/TO-DO_ListApp.dir/taskmanager.cpp.obj: CMakeFiles/TO-DO_ListApp.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TO-DO_ListApp.dir/taskmanager.cpp.obj"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TO-DO_ListApp.dir/taskmanager.cpp.obj -MF CMakeFiles\TO-DO_ListApp.dir\taskmanager.cpp.obj.d -o CMakeFiles\TO-DO_ListApp.dir\taskmanager.cpp.obj -c C:\Users\TLS\Desktop\TO-DO_ListApp\taskmanager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/TO-DO_ListApp.dir/taskmanager.cpp.obj"
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/TO-DO_ListApp.dir/taskmanager.cpp.obj -MF CMakeFiles\TO-DO_ListApp.dir\taskmanager.cpp.obj.d -o CMakeFiles\TO-DO_ListApp.dir\taskmanager.cpp.obj -c "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\taskmanager.cpp"
 
 CMakeFiles/TO-DO_ListApp.dir/taskmanager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/TO-DO_ListApp.dir/taskmanager.cpp.i"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E C:\Users\TLS\Desktop\TO-DO_ListApp\taskmanager.cpp > CMakeFiles\TO-DO_ListApp.dir\taskmanager.cpp.i
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\taskmanager.cpp" > CMakeFiles\TO-DO_ListApp.dir\taskmanager.cpp.i
 
 CMakeFiles/TO-DO_ListApp.dir/taskmanager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/TO-DO_ListApp.dir/taskmanager.cpp.s"
-	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S C:\Users\TLS\Desktop\TO-DO_ListApp\taskmanager.cpp -o CMakeFiles\TO-DO_ListApp.dir\taskmanager.cpp.s
+	C:\Qt\Tools\mingw1310_64\bin\g++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\taskmanager.cpp" -o CMakeFiles\TO-DO_ListApp.dir\taskmanager.cpp.s
 
 # Object files for target TO-DO_ListApp
 TO__DO_ListApp_OBJECTS = \
@@ -158,7 +158,7 @@ TO-DO_ListApp.exe: TO-DO_ListApp.exe.manifest
 TO-DO_ListApp.exe: CMakeFiles/TO-DO_ListApp.dir/linkLibs.rsp
 TO-DO_ListApp.exe: CMakeFiles/TO-DO_ListApp.dir/objects1.rsp
 TO-DO_ListApp.exe: CMakeFiles/TO-DO_ListApp.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable TO-DO_ListApp.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable TO-DO_ListApp.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\TO-DO_ListApp.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -170,6 +170,6 @@ CMakeFiles/TO-DO_ListApp.dir/clean:
 .PHONY : CMakeFiles/TO-DO_ListApp.dir/clean
 
 CMakeFiles/TO-DO_ListApp.dir/depend: TO-DO_ListApp_autogen/timestamp
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\TLS\Desktop\TO-DO_ListApp C:\Users\TLS\Desktop\TO-DO_ListApp C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles\TO-DO_ListApp.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO" "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO" "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug" "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug" "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles\TO-DO_ListApp.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/TO-DO_ListApp.dir/depend
 

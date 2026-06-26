@@ -52,10 +52,10 @@ RM = C:\Qt\Tools\CMake_64\bin\cmake.exe -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\TLS\Desktop\TO-DO_ListApp
+CMAKE_SOURCE_DIR = "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug
+CMAKE_BINARY_DIR = "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug"
 
 # Utility rule file for TO-DO_ListApp_autogen.
 
@@ -70,9 +70,9 @@ CMakeFiles/TO-DO_ListApp_autogen: TO-DO_ListApp_autogen/timestamp
 TO-DO_ListApp_autogen/timestamp: C:/Qt/6.11.1/mingw_64/bin/moc.exe
 TO-DO_ListApp_autogen/timestamp: C:/Qt/6.11.1/mingw_64/bin/uic.exe
 TO-DO_ListApp_autogen/timestamp: CMakeFiles/TO-DO_ListApp_autogen.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir=C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target TO-DO_ListApp"
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/TO-DO_ListApp_autogen.dir/AutogenInfo.json Debug
-	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/TO-DO_ListApp_autogen/timestamp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --blue --bold --progress-dir="C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Automatic MOC and UIC for target TO-DO_ListApp"
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E cmake_autogen "C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/TO-DO_ListApp_autogen.dir/AutogenInfo.json" Debug
+	C:\Qt\Tools\CMake_64\bin\cmake.exe -E touch "C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/TO-DO_ListApp_autogen/timestamp"
 
 TO-DO_ListApp_autogen: CMakeFiles/TO-DO_ListApp_autogen
 TO-DO_ListApp_autogen: TO-DO_ListApp_autogen/timestamp
@@ -88,6 +88,6 @@ CMakeFiles/TO-DO_ListApp_autogen.dir/clean:
 .PHONY : CMakeFiles/TO-DO_ListApp_autogen.dir/clean
 
 CMakeFiles/TO-DO_ListApp_autogen.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" C:\Users\TLS\Desktop\TO-DO_ListApp C:\Users\TLS\Desktop\TO-DO_ListApp C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles\TO-DO_ListApp_autogen.dir\DependInfo.cmake "--color=$(COLOR)"
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO" "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO" "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug" "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug" "C:\Users\TLS\Desktop\TO-DO LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\CMakeFiles\TO-DO_ListApp_autogen.dir\DependInfo.cmake" "--color=$(COLOR)"
 .PHONY : CMakeFiles/TO-DO_ListApp_autogen.dir/depend
 

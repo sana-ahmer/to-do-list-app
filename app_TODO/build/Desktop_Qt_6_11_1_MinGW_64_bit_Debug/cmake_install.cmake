@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/TLS/Desktop/TO-DO_ListApp
+# Install script for directory: C:/Users/TLS/Desktop/TO-DO LIST/app_TODO
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -38,7 +38,7 @@ if(NOT DEFINED CMAKE_OBJDUMP)
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/TO-DO_ListApp.exe")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/bin" TYPE EXECUTABLE FILES "C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/TO-DO_ListApp.exe")
   if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/TO-DO_ListApp.exe" AND
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/bin/TO-DO_ListApp.exe")
     if(CMAKE_INSTALL_DO_STRIP)
@@ -62,6 +62,6 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-  file(WRITE "C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

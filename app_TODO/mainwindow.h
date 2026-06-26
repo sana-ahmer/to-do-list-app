@@ -25,6 +25,10 @@ private slots:
 
     void on_deleteButton_clicked();
 
+    void on_searchButton_clicked();
+
+    void on_clearButton_clicked();
+
 private:
     Ui::MainWindow *ui;
     taskManager manager;

@@ -1,7 +1,7 @@
 CMakeFiles/TO-DO_ListApp.dir/TO-DO_ListApp_autogen/mocs_compilation.cpp.obj: \
- C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\TO-DO_ListApp_autogen\mocs_compilation.cpp \
- C:\Users\TLS\Desktop\TO-DO_ListApp\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\TO-DO_ListApp_autogen\EWIEGA46WW/moc_mainwindow.cpp \
- C:/Users/TLS/Desktop/TO-DO_ListApp/mainwindow.h \
+ C:\Users\TLS\Desktop\TO-DO\ LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\TO-DO_ListApp_autogen\mocs_compilation.cpp \
+ C:\Users\TLS\Desktop\TO-DO\ LIST\app_TODO\build\Desktop_Qt_6_11_1_MinGW_64_bit_Debug\TO-DO_ListApp_autogen\EWIEGA46WW/moc_mainwindow.cpp \
+ C:/Users/TLS/Desktop/TO-DO\ LIST/app_TODO/mainwindow.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/QMainWindow \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qmainwindow.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtwidgetsglobal.h \
@@ -387,7 +387,7 @@ CMakeFiles/TO-DO_ListApp.dir/TO-DO_ListApp_autogen/mocs_compilation.cpp.obj: \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qcursor.h \
  C:/Qt/6.11.1/mingw_64/include/QtGui/qbitmap.h \
  C:/Qt/6.11.1/mingw_64/include/QtWidgets/qtabwidget.h \
- C:/Users/TLS/Desktop/TO-DO_ListApp/taskmanager.h \
+ C:/Users/TLS/Desktop/TO-DO\ LIST/app_TODO/taskmanager.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ostream \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/ios \

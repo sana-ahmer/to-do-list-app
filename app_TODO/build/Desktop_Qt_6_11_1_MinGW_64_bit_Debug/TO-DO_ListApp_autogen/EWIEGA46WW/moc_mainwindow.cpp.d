@@ -1,5 +1,5 @@
-C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/TO-DO_ListApp_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/TLS/Desktop/TO-DO_ListApp/mainwindow.h \
-  C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/TO-DO_ListApp_autogen/moc_predefs.h \
+C:/Users/TLS/Desktop/TO-DO\ LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/TO-DO_ListApp_autogen/EWIEGA46WW/moc_mainwindow.cpp: C:/Users/TLS/Desktop/TO-DO\ LIST/app_TODO/mainwindow.h \
+  C:/Users/TLS/Desktop/TO-DO\ LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/TO-DO_ListApp_autogen/moc_predefs.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q17memory.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q20bit.h \
   C:/Qt/6.11.1/mingw_64/include/QtCore/q20functional.h \
@@ -396,4 +396,4 @@ C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/TO
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Qt/Tools/mingw1310_64/x86_64-w64-mingw32/include/wctype.h \
-  C:/Users/TLS/Desktop/TO-DO_ListApp/taskmanager.h
+  C:/Users/TLS/Desktop/TO-DO\ LIST/app_TODO/taskmanager.h

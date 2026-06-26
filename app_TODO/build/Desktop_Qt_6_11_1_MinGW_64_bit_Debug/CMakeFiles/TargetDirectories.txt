@@ -1,9 +1,9 @@
-C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/TO-DO_ListApp.dir
-C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/edit_cache.dir
-C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/rebuild_cache.dir
-C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/list_install_components.dir
-C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/install.dir
-C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/install/local.dir
-C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/install/strip.dir
-C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/TO-DO_ListApp_autogen_timestamp_deps.dir
-C:/Users/TLS/Desktop/TO-DO_ListApp/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/TO-DO_ListApp_autogen.dir
+C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/TO-DO_ListApp.dir
+C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/edit_cache.dir
+C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/rebuild_cache.dir
+C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/list_install_components.dir
+C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/install.dir
+C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/install/local.dir
+C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/install/strip.dir
+C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/TO-DO_ListApp_autogen_timestamp_deps.dir
+C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/build/Desktop_Qt_6_11_1_MinGW_64_bit_Debug/CMakeFiles/TO-DO_ListApp_autogen.dir

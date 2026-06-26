@@ -1,6 +1,6 @@
 CMakeFiles/TO-DO_ListApp.dir/taskmanager.cpp.obj: \
- C:\Users\TLS\Desktop\TO-DO_ListApp\taskmanager.cpp \
- C:\Users\TLS\Desktop\TO-DO_ListApp\taskmanager.h \
+ C:\Users\TLS\Desktop\TO-DO\ LIST\app_TODO\taskmanager.cpp \
+ C:\Users\TLS\Desktop\TO-DO\ LIST\app_TODO\taskmanager.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/iostream \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/bits/requires_hosted.h \
  C:/Qt/Tools/mingw1310_64/lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32/bits/c++config.h \
