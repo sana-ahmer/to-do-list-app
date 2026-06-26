@@ -19,7 +19,6 @@ void MainWindow::refreshList(){
     ui->tasklistWidget->clear();
     for (auto task : manager.taskList){
         QString text;
-        text = "(" + QString::number(task.task_num) + ") ";
         if (task.done)
             text += "[✓] ";
         else
@@ -51,6 +50,7 @@ void MainWindow::on_deleteButton_clicked()
     int row = ui->tasklistWidget->currentRow();
     if (row == -1) return;
     manager.taskList.erase(manager.taskList.begin()+row);
+    if (manager.taskList.empty()) manager.next_task = 1;
     manager.saveTasks();
     refreshList();
     ui->tasklistWidget->clearSelection();
@@ -87,6 +87,7 @@ void MainWindow::on_clearButton_clicked()
         else ++it;
     }
     manager.saveTasks();
+    if (manager.taskList.empty()) manager.next_task = 1;
     refreshList();
 }
 

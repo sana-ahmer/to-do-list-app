@@ -10,6 +10,8 @@ void taskManager::saveTasks(){
     file.close();
 }
 void taskManager::loadTasks(){
+    taskList.clear();
+    next_task = 1;
     ifstream inFile("tasklist.txt");
     if (!inFile) return;
     string task_line;

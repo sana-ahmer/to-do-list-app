@@ -401,7 +401,7 @@ C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/mainwindow.h
  mdp:C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/mainwindow.h
  mdp:C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/taskmanager.h
 C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/taskmanager.h
+C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/main.cpp
 C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/mainwindow.cpp
  uic:./ui_mainwindow.h
-C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/main.cpp
 C:/Users/TLS/Desktop/TO-DO LIST/app_TODO/taskmanager.cpp
