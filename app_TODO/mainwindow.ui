@@ -6,7 +6,7 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>759</width>
+    <width>357</width>
     <height>407</height>
    </rect>
   </property>
@@ -83,6 +83,13 @@
        </widget>
       </item>
      </layout>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pushButton">
+      <property name="text">
+       <string>Show All Tasks</string>
+      </property>
+     </widget>
     </item>
     <item>
      <widget class="QCheckBox" name="hidecompletedcheck">

@@ -65,6 +65,7 @@ void MainWindow::on_searchButton_clicked()
     QString qsearch = ui->searchInput->text();
     ui->tasklistWidget->clear();
     if (qsearch.isEmpty()){
+        ui->searchInput->clear();
         refreshList();
         return;
     }
@@ -78,6 +79,7 @@ void MainWindow::on_searchButton_clicked()
             ui->tasklistWidget->addItem(text);
             }
     }
+    ui->searchInput->clear();
 }
 
 
@@ -91,6 +93,12 @@ void MainWindow::on_clearButton_clicked()
 
 
 void MainWindow::on_hidecompletedcheck_toggled(bool checked)
+{
+    refreshList();
+}
+
+
+void MainWindow::on_pushButton_clicked()
 {
     refreshList();
 }

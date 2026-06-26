@@ -37,6 +37,7 @@ public:
     QLabel *label_2;
     QLineEdit *taskInput;
     QPushButton *addButton;
+    QPushButton *pushButton;
     QCheckBox *hidecompletedcheck;
     QListWidget *tasklistWidget;
     QHBoxLayout *horizontalLayout_3;
@@ -48,7 +49,7 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(759, 407);
+        MainWindow->resize(357, 407);
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         verticalLayout = new QVBoxLayout(centralwidget);
@@ -108,6 +109,11 @@ public:
 
         verticalLayout->addLayout(horizontalLayout_2);
 
+        pushButton = new QPushButton(centralwidget);
+        pushButton->setObjectName("pushButton");
+
+        verticalLayout->addWidget(pushButton);
+
         hidecompletedcheck = new QCheckBox(centralwidget);
         hidecompletedcheck->setObjectName("hidecompletedcheck");
         hidecompletedcheck->setFont(font1);
@@ -154,6 +160,7 @@ public:
         searchButton->setText(QCoreApplication::translate("MainWindow", "Search", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "Task to Add", nullptr));
         addButton->setText(QCoreApplication::translate("MainWindow", "Add Task", nullptr));
+        pushButton->setText(QCoreApplication::translate("MainWindow", "Show All Tasks", nullptr));
         hidecompletedcheck->setText(QCoreApplication::translate("MainWindow", "Show only incompleted tasks", nullptr));
         completeButton->setText(QCoreApplication::translate("MainWindow", "Complete Task", nullptr));
         deleteButton->setText(QCoreApplication::translate("MainWindow", "Delete Task", nullptr));
