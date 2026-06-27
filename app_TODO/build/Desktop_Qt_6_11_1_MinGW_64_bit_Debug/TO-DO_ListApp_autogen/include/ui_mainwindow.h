@@ -37,8 +37,8 @@ public:
     QLabel *label_2;
     QLineEdit *taskInput;
     QPushButton *addButton;
-    QPushButton *pushButton;
     QCheckBox *hidecompletedcheck;
+    QPushButton *showAll;
     QListWidget *tasklistWidget;
     QHBoxLayout *horizontalLayout_3;
     QPushButton *completeButton;
@@ -49,7 +49,84 @@ public:
     {
         if (MainWindow->objectName().isEmpty())
             MainWindow->setObjectName("MainWindow");
-        MainWindow->resize(357, 407);
+        MainWindow->resize(339, 407);
+        MainWindow->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
+        MainWindow->setMouseTracking(true);
+        MainWindow->setAutoFillBackground(false);
+        MainWindow->setStyleSheet(QString::fromUtf8("QMainWindow {\n"
+"    background-color: #CBC3E3\n"
+"}\n"
+"\n"
+"QPushButton {\n"
+"    background-color: #8B5CF6;\n"
+"    color: white;\n"
+"    border-radius: 10px;\n"
+"    padding: 6px;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #7C3AED;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #6D28D9;\n"
+"}\n"
+"\n"
+"QLineEdit {\n"
+"    background-color: white;\n"
+"    border: 2px solid #C4B5FD;\n"
+"    border-radius: 8px;\n"
+"    padding: 4px;\n"
+"}\n"
+"\n"
+"QListWidget {\n"
+"    background-color: white;\n"
+"    border: 2px solid #D8B4FE;\n"
+"    border-radius: 12px;\n"
+"}\n"
+"\n"
+"QCheckBox {\n"
+"    font-size: 10pt;\n"
+"}\n"
+"#addButton {\n"
+"    background-color: #10B981;\n"
+"}\n"
+"\n"
+"#addButton:hover {\n"
+"    background-color: #059669;\n"
+"}\n"
+"\n"
+"#deleteButton {\n"
+"    background-color: #EF4444;\n"
+"}\n"
+"\n"
+"#deleteButton:hover {\n"
+"    background-color: #DC2626;\n"
+"}\n"
+"\n"
+"#completeButton {\n"
+"    background-color: #40E0D0;\n"
+"}\n"
+"\n"
+"#comp"
+                        "leteButton:hover {\n"
+"    background-color: #1CA89A;\n"
+"}\n"
+"\n"
+"#searchButton {\n"
+"    background-color: #F59E0B;\n"
+"}\n"
+"\n"
+"#searchButton:hover {\n"
+"    background-color: #D97706;\n"
+"}\n"
+"#clearButton {\n"
+"	background-color: #FFA500;\n"
+"}\n"
+"#clearButton:hover {\n"
+"	backgorund-color: #D97706;\n"
+"}"));
         centralwidget = new QWidget(MainWindow);
         centralwidget->setObjectName("centralwidget");
         verticalLayout = new QVBoxLayout(centralwidget);
@@ -109,16 +186,55 @@ public:
 
         verticalLayout->addLayout(horizontalLayout_2);
 
-        pushButton = new QPushButton(centralwidget);
-        pushButton->setObjectName("pushButton");
-
-        verticalLayout->addWidget(pushButton);
-
         hidecompletedcheck = new QCheckBox(centralwidget);
         hidecompletedcheck->setObjectName("hidecompletedcheck");
-        hidecompletedcheck->setFont(font1);
+        QFont font2;
+        font2.setFamilies({QString::fromUtf8("SimSun-ExtB")});
+        font2.setPointSize(10);
+        hidecompletedcheck->setFont(font2);
+        hidecompletedcheck->setStyleSheet(QString::fromUtf8("QMainWindow {\n"
+"    background-color: #F7F4FF;\n"
+"}\n"
+"\n"
+"QPushButton {\n"
+"    background-color: #8B5CF6;\n"
+"    color: white;\n"
+"    border-radius: 10px;\n"
+"    padding: 6px;\n"
+"    border: none;\n"
+"}\n"
+"\n"
+"QPushButton:hover {\n"
+"    background-color: #7C3AED;\n"
+"}\n"
+"\n"
+"QPushButton:pressed {\n"
+"    background-color: #6D28D9;\n"
+"}\n"
+"\n"
+"QLineEdit {\n"
+"    background-color: white;\n"
+"    border: 2px solid #C4B5FD;\n"
+"    border-radius: 8px;\n"
+"    padding: 4px;\n"
+"}\n"
+"\n"
+"QListWidget {\n"
+"    background-color: white;\n"
+"    border: 2px solid #D8B4FE;\n"
+"    border-radius: 12px;\n"
+"}\n"
+"\n"
+"QCheckBox {\n"
+"    font-size: 10pt;\n"
+"}"));
 
         verticalLayout->addWidget(hidecompletedcheck);
+
+        showAll = new QPushButton(centralwidget);
+        showAll->setObjectName("showAll");
+
+        verticalLayout->addWidget(showAll);
 
         tasklistWidget = new QListWidget(centralwidget);
         tasklistWidget->setObjectName("tasklistWidget");
@@ -129,6 +245,7 @@ public:
         horizontalLayout_3->setObjectName("horizontalLayout_3");
         completeButton = new QPushButton(centralwidget);
         completeButton->setObjectName("completeButton");
+        completeButton->setAutoFillBackground(false);
 
         horizontalLayout_3->addWidget(completeButton);
 
@@ -155,13 +272,13 @@ public:
     void retranslateUi(QMainWindow *MainWindow)
     {
         MainWindow->setWindowTitle(QCoreApplication::translate("MainWindow", "MainWindow", nullptr));
-        HEADING->setText(QCoreApplication::translate("MainWindow", "TO DO LIST", nullptr));
+        HEADING->setText(QCoreApplication::translate("MainWindow", "                               TO DO LIST", nullptr));
         label->setText(QCoreApplication::translate("MainWindow", "Search Task", nullptr));
         searchButton->setText(QCoreApplication::translate("MainWindow", "Search", nullptr));
         label_2->setText(QCoreApplication::translate("MainWindow", "Task to Add", nullptr));
         addButton->setText(QCoreApplication::translate("MainWindow", "Add Task", nullptr));
-        pushButton->setText(QCoreApplication::translate("MainWindow", "Show All Tasks", nullptr));
         hidecompletedcheck->setText(QCoreApplication::translate("MainWindow", "Show only incompleted tasks", nullptr));
+        showAll->setText(QCoreApplication::translate("MainWindow", "Show All Tasks", nullptr));
         completeButton->setText(QCoreApplication::translate("MainWindow", "Complete Task", nullptr));
         deleteButton->setText(QCoreApplication::translate("MainWindow", "Delete Task", nullptr));
         clearButton->setText(QCoreApplication::translate("MainWindow", "Clear", nullptr));

@@ -6,12 +6,96 @@
    <rect>
     <x>0</x>
     <y>0</y>
-    <width>357</width>
+    <width>339</width>
     <height>407</height>
    </rect>
   </property>
+  <property name="cursor">
+   <cursorShape>PointingHandCursor</cursorShape>
+  </property>
+  <property name="mouseTracking">
+   <bool>true</bool>
+  </property>
   <property name="windowTitle">
    <string>MainWindow</string>
+  </property>
+  <property name="autoFillBackground">
+   <bool>false</bool>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QMainWindow {
+    background-color: #CBC3E3
+}
+
+QPushButton {
+    background-color: #8B5CF6;
+    color: white;
+    border-radius: 10px;
+    padding: 6px;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #7C3AED;
+}
+
+QPushButton:pressed {
+    background-color: #6D28D9;
+}
+
+QLineEdit {
+    background-color: white;
+    border: 2px solid #C4B5FD;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+QListWidget {
+    background-color: white;
+    border: 2px solid #D8B4FE;
+    border-radius: 12px;
+}
+
+QCheckBox {
+    font-size: 10pt;
+}
+#addButton {
+    background-color: #10B981;
+}
+
+#addButton:hover {
+    background-color: #059669;
+}
+
+#deleteButton {
+    background-color: #EF4444;
+}
+
+#deleteButton:hover {
+    background-color: #DC2626;
+}
+
+#completeButton {
+    background-color: #40E0D0;
+}
+
+#completeButton:hover {
+    background-color: #1CA89A;
+}
+
+#searchButton {
+    background-color: #F59E0B;
+}
+
+#searchButton:hover {
+    background-color: #D97706;
+}
+#clearButton {
+	background-color: #FFA500;
+}
+#clearButton:hover {
+	backgorund-color: #D97706;
+}</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QVBoxLayout" name="verticalLayout">
@@ -25,7 +109,7 @@
        </font>
       </property>
       <property name="text">
-       <string>TO DO LIST</string>
+       <string>                               TO DO LIST</string>
       </property>
       <property name="indent">
        <number>0</number>
@@ -85,21 +169,60 @@
      </layout>
     </item>
     <item>
-     <widget class="QPushButton" name="pushButton">
-      <property name="text">
-       <string>Show All Tasks</string>
-      </property>
-     </widget>
-    </item>
-    <item>
      <widget class="QCheckBox" name="hidecompletedcheck">
       <property name="font">
        <font>
         <family>SimSun-ExtB</family>
+        <pointsize>10</pointsize>
        </font>
+      </property>
+      <property name="styleSheet">
+       <string notr="true">QMainWindow {
+    background-color: #F7F4FF;
+}
+
+QPushButton {
+    background-color: #8B5CF6;
+    color: white;
+    border-radius: 10px;
+    padding: 6px;
+    border: none;
+}
+
+QPushButton:hover {
+    background-color: #7C3AED;
+}
+
+QPushButton:pressed {
+    background-color: #6D28D9;
+}
+
+QLineEdit {
+    background-color: white;
+    border: 2px solid #C4B5FD;
+    border-radius: 8px;
+    padding: 4px;
+}
+
+QListWidget {
+    background-color: white;
+    border: 2px solid #D8B4FE;
+    border-radius: 12px;
+}
+
+QCheckBox {
+    font-size: 10pt;
+}</string>
       </property>
       <property name="text">
        <string>Show only incompleted tasks</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="showAll">
+      <property name="text">
+       <string>Show All Tasks</string>
       </property>
      </widget>
     </item>
@@ -110,6 +233,9 @@
      <layout class="QHBoxLayout" name="horizontalLayout_3">
       <item>
        <widget class="QPushButton" name="completeButton">
+        <property name="autoFillBackground">
+         <bool>false</bool>
+        </property>
         <property name="text">
          <string>Complete Task</string>
         </property>

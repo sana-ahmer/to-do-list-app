@@ -6,6 +6,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+    setWindowTitle("TO-DO LIST APP");
     manager.loadTasks();
     refreshList();
 }
@@ -65,7 +66,6 @@ void MainWindow::on_searchButton_clicked()
     QString qsearch = ui->searchInput->text();
     ui->tasklistWidget->clear();
     if (qsearch.isEmpty()){
-        ui->searchInput->clear();
         refreshList();
         return;
     }
@@ -98,8 +98,13 @@ void MainWindow::on_hidecompletedcheck_toggled(bool checked)
 }
 
 
-void MainWindow::on_pushButton_clicked()
+
+
+
+void MainWindow::on_showAll_clicked()
 {
+    ui->searchInput->clear();
+    ui->hidecompletedcheck->setChecked(false);
     refreshList();
 }
 
