@@ -29,12 +29,12 @@ Location: `app_TODO/`
 
 ### Prerequisites
 - Install Qt Creator and Qt Framework.
-- Install a C++ compiler (MinGW or MSVC).
+- Install a C++ compiler (MinGW).
 
 ### Steps
 - Clone the repository:
    bash
-git clone https://github.com/yourusername/todo-app.git
+git clone https://github.com/sana-ahmer/to-do-list-app.git
 
 
 - Open the project in Qt Creator.
@@ -43,14 +43,13 @@ git clone https://github.com/yourusername/todo-app.git
 
 - Run the application.
 
-## Screenshots
+## Screenshot
 ![alt text](image.png)
-![alt text](image-1.png)
 
 ## Future Improvements
 - Add task priorities
 - Add due dates and reminders
-- Search and filter tasks
+- Filter tasks
 - Dark mode support
 - Categories for tasks
 
